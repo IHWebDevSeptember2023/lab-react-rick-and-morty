@@ -1,0 +1,13 @@
+.details-container {
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90vw;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
