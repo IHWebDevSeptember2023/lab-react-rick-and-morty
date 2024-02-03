@@ -1,13 +1,36 @@
 .details-container {
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     color: black;
     padding: 20px;
     border-radius: 10px;
-    width: 90vw;
+    width: 70vw;
 }
 
-.info{
+.info {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.info ul {
+    font-size: 40px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.info img {
+    max-width: 500px;
 }
