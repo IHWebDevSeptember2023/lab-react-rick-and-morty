@@ -26,6 +26,7 @@ function CharacterDetailsPage() {
                     <li>Status: {character.status}</li>
                     <li>Origin: {character.origin?.name}</li>
                     <li>Location: {character.location?.name}</li>
+                    <li>Number of episodes: {character.episode.length}</li>
                 </ul>
             </div>
         </div>
